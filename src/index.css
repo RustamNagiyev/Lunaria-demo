@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "EB Garamond", Georgia, serif;
+  --font-serif: "EB Garamond", Georgia, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-surface-container-lowest: #0e0e10;
+  --color-surface-container-low: #1b1b1d;
+  --color-surface-container: #201f21;
+  --color-surface-container-high: #2a2a2c;
+  --color-surface-container-highest: #353437;
+  --color-surface: #131315;
+  --color-background: #131315;
+
+  --color-primary: #e8c176;
+  --color-primary-container: #c9a45c;
+  --color-on-primary: #412d00;
+  --color-on-primary-container: #523a00;
+  --color-primary-fixed: #ffdea4;
+  --color-primary-fixed-dim: #e8c176;
+
+  --color-secondary: #dec486;
+  --color-secondary-container: #594715;
+  --color-secondary-fixed: #fce0a0;
+  --color-on-secondary-fixed: #251a00;
+
+  --color-tertiary: #d4c4b4;
+  --color-tertiary-fixed: #f1e0cf;
+  --color-tertiary-fixed-dim: #d4c4b4;
+  --color-tertiary-container: #b6a798;
+  --color-on-tertiary: #382f24;
+  --color-on-tertiary-fixed: #221a10;
+  --color-on-tertiary-fixed-variant: #504539;
+  --color-on-tertiary-container: #473c31;
+
+  --color-on-surface: #e5e1e4;
+  --color-on-surface-variant: #d1c5b4;
+  --color-outline: #9a8f80;
+  --color-outline-variant: #4e4639;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+  }
+  body {
+    background-color: #0e0e10;
+    color: #e5e1e4;
+    overflow-x: hidden;
+  }
+}
+
+.font-display-hero {
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+.font-headline-xl {
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+.font-headline-lg {
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+.font-headline-md {
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+.font-headline-sm {
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+.font-label-editorial {
+  font-family: "EB Garamond", Georgia, serif;
+}
+
+.font-label-caps {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.font-body-xl {
+  font-family: "Inter", sans-serif;
+}
+
+.font-body-lg {
+  font-family: "Inter", sans-serif;
+}
+
+.font-body-md {
+  font-family: "Inter", sans-serif;
+}
+
+.font-caption {
+  font-family: "Inter", sans-serif;
+}

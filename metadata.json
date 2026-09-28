@@ -1,0 +1,6 @@
+{
+  "name": "Lunaria - Təmir və İnteryer Dizayn Studiyası",
+  "description": "Bakıda və regionda lüks yaşayış və kommersiya məkanlarının memarlıq, təmir və interyer dizaynı üzrə etibarlı tərəfdaşınız.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
